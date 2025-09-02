@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<!-- saved from url=(0067)file:///C:/Users/user/Downloads/deepseek_html_20250902_8bd5c6.html# -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insider.Pro - Amazon FBA &amp; AliExpress Sourcing</title>
+    <link rel="stylesheet" href="./Insider.Pro - Amazon FBA &amp; AliExpress Sourcing_files/all.min.css">
+    <style>
+        :root {
+            --primary: #3498db;
+            --secondary: #e74c3c;
+            --accent: #2ecc71;
+            --dark: #2c3e50;
+            --light: #ecf0f1;
+            --gray: #95a5a6;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: #f8f9fa;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+        
+        /* Header Styles */
+        header {
+            background-color: white;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 0;
+        }
+        
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+        
+        .logo h1 {
+            font-size: 24px;
+            color: var(--dark);
+            margin-left: 10px;
+        }
+        
+        .logo span {
+            color: var(--primary);
+        }
+        
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+        
+        nav ul li {
+            margin-left: 25px;
+        }
+        
+        nav ul li a {
+            text-decoration: none;
+            color: var(--dark);
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+        
+        nav ul li a:hover {
+            color: var(--primary);
+        }
+        
+        .auth-buttons {
+            display: flex;
+            align-items: center;
+        }
+        
+        .btn {
+            padding: 8px 20px;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s;
+            cursor: pointer;
+            border: none;
+        }
+        
+        .btn-outline {
+            border: 1px solid var(--primary);
+            color: var(--primary);
+            background: transparent;
+            margin-right: 10px;
+        }
+        
+        .btn-primary {
+            background-color: var(--primary);
+            color: white;
+        }
+        
+        .btn-primary:hover {
+            background-color: #2980b9;
+        }
+        
+        .btn-outline:hover {
+            background-color: var(--primary);
+            color: white;
+        }
+        
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(to right, #3498db, #2c3e50);
+            color: white;
+            padding: 80px 0;
+            text-align: center;
+        }
+        
+        .hero h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 700px;
+            margin: 0 auto 30px;
+        }
+        
+        /* Business Profile Section */
+        .business-profile {
+            padding: 80px 0;
+            background-color: white;
+        }
+        
+        .profile-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 40px;
+            margin-top: 40px;
+        }
+        
+        .profile-info {
+            flex: 1;
+            min-width: 300px;
+        }
+        
+        .profile-card {
+            background: white;
+            border-radius: 8px;
+            padding: 30px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        .profile-card h3 {
+            color: var(--dark);
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid var(--primary);
+        }
+        
+        .info-item {
+            display: flex;
+            margin-bottom: 15px;
+        }
+        
+        .info-icon {
+            width: 40px;
+            color: var(--primary);
+            font-size: 1.2rem;
+        }
+        
+        .profile-details {
+            flex: 2;
+            min-width: 300px;
+        }
+        
+        /* Features Section */
+        .features {
+            padding: 80px 0;
+            background-color: #f8f9fa;
+        }
+        
+        .section-title {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        
+        .section-title h2 {
+            font-size: 2rem;
+            color: var(--dark);
+            margin-bottom: 15px;
+        }
+        
+        .section-title p {
+            color: var(--gray);
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+        
+        .feature-card {
+            background-color: white;
+            border-radius: 8px;
+            padding: 30px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s;
+            text-align: center;
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .feature-icon {
+            font-size: 2.5rem;
+            color: var(--primary);
+            margin-bottom: 20px;
+        }
+        
+        .feature-card h3 {
+            margin-bottom: 15px;
+            color: var(--dark);
+        }
+        
+        /* How It Works */
+        .how-it-works {
+            padding: 80px 0;
+            background-color: white;
+        }
+        
+        .steps {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin-top: 50px;
+        }
+        
+        .step {
+            flex: 1;
+            min-width: 250px;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+        }
+        
+        .step-number {
+            width: 50px;
+            height: 50px;
+            background-color: var(--primary);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin: 0 auto 20px;
+        }
+        
+        .step h3 {
+            margin-bottom: 15px;
+            color: var(--dark);
+        }
+        
+        /* Platform Section */
+        .platforms {
+            padding: 80px 0;
+            background-color: #f8f9fa;
+        }
+        
+        .platform-cards {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+        
+        .platform-card {
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            width: 100%;
+            max-width: 350px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+        
+        .platform-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .platform-header {
+            padding: 20px;
+            text-align: center;
+            background: linear-gradient(to right, #3498db, #2c3e50);
+            color: white;
+        }
+        
+        .platform-header i {
+            font-size: 3rem;
+            margin-bottom: 15px;
+        }
+        
+        .platform-body {
+            padding: 20px;
+        }
+        
+        .platform-body ul {
+            list-style: none;
+            margin-bottom: 20px;
+        }
+        
+        .platform-body ul li {
+            padding: 10px 0;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .platform-body ul li i {
+            color: var(--accent);
+            margin-right: 10px;
+        }
+        
+        /* CTA Section */
+        .cta {
+            padding: 80px 0;
+            background: linear-gradient(to right, #3498db, #2c3e50);
+            color: white;
+            text-align: center;
+        }
+        
+        .cta h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        
+        .cta p {
+            max-width: 700px;
+            margin: 0 auto 30px;
+            font-size: 1.2rem;
+        }
+        
+        /* Footer */
+        footer {
+            background-color: var(--dark);
+            color: white;
+            padding: 60px 0 30px;
+        }
+        
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-bottom: 30px;
+        }
+        
+        .footer-column h3 {
+            margin-bottom: 20px;
+            font-size: 1.2rem;
+        }
+        
+        .footer-column ul {
+            list-style: none;
+        }
+        
+        .footer-column ul li {
+            margin-bottom: 10px;
+        }
+        
+        .footer-column ul li a {
+            color: #ddd;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        
+        .footer-column ul li a:hover {
+            color: var(--primary);
+        }
+        
+        .social-icons {
+            display: flex;
+            gap: 15px;
+        }
+        
+        .social-icons a {
+            color: white;
+            font-size: 1.2rem;
+            transition: color 0.3s;
+        }
+        
+        .social-icons a:hover {
+            color: var(--primary);
+        }
+        
+        .copyright {
+            text-align: center;
+            padding-top: 30px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            color: #aaa;
+        }
+        
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            nav {
+                display: none;
+            }
+            
+            .hero h2 {
+                font-size: 2rem;
+            }
+            
+            .steps {
+                flex-direction: column;
+            }
+            
+            .step {
+                margin-bottom: 30px;
+            }
+            
+            .profile-container {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <i class="fas fa-store fa-2x"></i>
+                    <h1>Insider.<span>Pro</span></h1>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="file:///C:/Users/user/Downloads/deepseek_html_20250902_8bd5c6.html#">Home</a></li>
+                        <li><a href="file:///C:/Users/user/Downloads/deepseek_html_20250902_8bd5c6.html#">Business Profile</a></li>
+                        <li><a href="file:///C:/Users/user/Downloads/deepseek_html_20250902_8bd5c6.html#">Amazon FBA</a></li>
+                        <li><a href="file:///C:/Users/user/Downloads/deepseek_html_20250902_8bd5c6.html#">AliExpress Sourcing</a></li>
+                        <li><a href="file:///C:/Users/user/Downloads/deepseek_html_20250902_8bd5c6.html#">Payment Integration</a></li>
+                        <li><a href="file:///C:/Users/user/Downloads/deepseek_html_20250902_8bd5c6.html#">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="auth-buttons">
+                    <button class="btn btn-outline">Amazon Seller Login</button>
+                    <button class="btn btn-primary">Payoneer Dashboard</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h2>Professional Amazon FBA Business with AliExpress Sourcing</h2>
+            <p>Insider.Pro is a registered e-commerce business specializing in Amazon FBA sales with integrated Payoneer payment solutions.</p>
+            <button class="btn btn-primary">View Business Documentation</button>
+        </div>
+    </section>
+
+    <!-- Business Profile Section -->
+    <section class="business-profile">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Business Profile</h2>
+                <p>Verified Amazon Seller with integrated Payoneer payment processing</p>
+            </div>
+            
+            <div class="profile-container">
+                <div class="profile-info">
+                    <div class="profile-card">
+                        <h3>Business Information</h3>
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fas fa-building"></i>
+                            </div>
+                            <div>
+                                <strong>Business Name</strong>
+                                <p>Insider.Pro E-Commerce Solutions</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fas fa-id-card"></i>
+                            </div>
+                            <div>
+                                <strong>Business Type</strong>
+                                <p>Registered LLC - E-Commerce Retail</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fas fa-calendar"></i>
+                            </div>
+                            <div>
+                                <strong>Established</strong>
+                                <p>January 2020</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fas fa-globe"></i>
+                            </div>
+                            <div>
+                                <strong>Operates In</strong>
+                                <p>USA, Europe, and Global Marketplaces</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="profile-card" style="margin-top: 30px;">
+                        <h3>Payment Integration</h3>
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fas fa-credit-card"></i>
+                            </div>
+                            <div>
+                                <strong>Primary Payment Processor</strong>
+                                <p>Payoneer Business Account</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fab fa-amazon"></i>
+                            </div>
+                            <div>
+                                <strong>Amazon Seller Account</strong>
+                                <p>Verified Professional Seller</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fas fa-exchange-alt"></i>
+                            </div>
+                            <div>
+                                <strong>Transaction Volume</strong>
+                                <p>5,000+ monthly transactions</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="profile-details">
+                    <div class="profile-card">
+                        <h3>Business Operations</h3>
+                        <p>Insider.Pro operates as a professional Amazon FBA (Fulfillment By Amazon) business with the following operational structure:</p>
+                        
+                        <div style="margin: 20px 0; padding: 15px; background: #f8f9fa; border-radius: 6px;">
+                            <h4 style="color: var(--primary); margin-bottom: 10px;">Sourcing → Amazon → Payoneer → Business Account</h4>
+                            <p>We source products primarily from AliExpress, manage inventory through Amazon FBA, and process payments through our verified Payoneer business account.</p>
+                        </div>
+                        
+                        <h4 style="margin: 20px 0 10px; color: var(--dark);">Key Business Aspects:</h4>
+                        <ul style="list-style: none;">
+                            <li style="padding: 8px 0; border-bottom: 1px solid #eee;"><i class="fas fa-check-circle" style="color: var(--accent); margin-right: 10px;"></i> Registered business with complete documentation</li>
+                            <li style="padding: 8px 0; border-bottom: 1px solid #eee;"><i class="fas fa-check-circle" style="color: var(--accent); margin-right: 10px;"></i> Verified Amazon Seller account in good standing</li>
+                            <li style="padding: 8px 0; border-bottom: 1px solid #eee;"><i class="fas fa-check-circle" style="color: var(--accent); margin-right: 10px;"></i> Integrated Payoneer payment processing</li>
+                            <li style="padding: 8px 0; border-bottom: 1px solid #eee;"><i class="fas fa-check-circle" style="color: var(--accent); margin-right: 10px;"></i> Established supplier relationships with AliExpress</li>
+                            <li style="padding: 8px 0;"><i class="fas fa-check-circle" style="color: var(--accent); margin-right: 10px;"></i> Comprehensive business records and financial documentation</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Business Services</h2>
+                <p>Professional e-commerce solutions for Amazon FBA sellers</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <h3>Product Sourcing</h3>
+                    <p>We identify and source high-demand, profitable products from AliExpress for Amazon FBA.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-truck-loading"></i>
+                    </div>
+                    <h3>FBA Logistics</h3>
+                    <p>Complete management of Amazon FBA inventory, shipping, and fulfillment.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <h3>Market Analysis</h3>
+                    <p>In-depth product research and market analysis to maximize profitability.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-money-bill-wave"></i>
+                    </div>
+                    <h3>Payment Processing</h3>
+                    <p>Seamless financial operations through integrated Payoneer business account.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>Automation Tools</h3>
+                    <p>Proprietary software for price monitoring, inventory management, and order processing.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <h3>Account Protection</h3>
+                    <p>Strategies and systems to maintain Amazon seller account health and compliance.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="how-it-works">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Business Process</h2>
+                <p>How we operate our Amazon FBA business with AliExpress sourcing</p>
+            </div>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Product Research</h3>
+                    <p>We use advanced tools to identify high-demand, low-competition products on Amazon that can be sourced from AliExpress.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Supplier Vetting</h3>
+                    <p>We carefully vet AliExpress suppliers for product quality, reliability, and shipping efficiency.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Inventory Management</h3>
+                    <p>We manage inventory levels, coordinate shipping to Amazon FBA warehouses, and handle customs documentation.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h3>Sales &amp; Payment Processing</h3>
+                    <p>We manage Amazon listings, customer service, and process payments through our integrated Payoneer account.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Platform Section -->
+    <section class="platforms">
+        <div class="container">
+            <div class="section-title">
+                <h2>Platform Integration</h2>
+                <p>Our business seamlessly connects these platforms</p>
+            </div>
+            <div class="platform-cards">
+                <div class="platform-card">
+                    <div class="platform-header">
+                        <i class="fab fa-amazon"></i>
+                        <h3>Amazon Seller Central</h3>
+                    </div>
+                    <div class="platform-body">
+                        <ul>
+                            <li><i class="fas fa-check"></i> Professional Seller Account</li>
+                            <li><i class="fas fa-check"></i> FBA Integration</li>
+                            <li><i class="fas fa-check"></i> Brand Registry</li>
+                            <li><i class="fas fa-check"></i> Advertising Management</li>
+                            <li><i class="fas fa-check"></i> Performance Metrics Tracking</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="platform-card">
+                    <div class="platform-header">
+                        <i class="fab fa-alipay"></i>
+                        <h3>AliExpress Sourcing</h3>
+                    </div>
+                    <div class="platform-body">
+                        <ul>
+                            <li><i class="fas fa-check"></i> Verified Supplier Network</li>
+                            <li><i class="fas fa-check"></i> Bulk Order Discounts</li>
+                            <li><i class="fas fa-check"></i> Quality Control Processes</li>
+                            <li><i class="fas fa-check"></i> Shipping Logistics</li>
+                            <li><i class="fas fa-check"></i> Custom Packaging Options</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="platform-card">
+                    <div class="platform-header">
+                        <i class="fas fa-money-bill-alt"></i>
+                        <h3>Payoneer Payments</h3>
+                    </div>
+                    <div class="platform-body">
+                        <ul>
+                            <li><i class="fas fa-check"></i> Business Account Verification</li>
+                            <li><i class="fas fa-check"></i> Amazon to Payoneer Integration</li>
+                            <li><i class="fas fa-check"></i> Multi-Currency Support</li>
+                            <li><i class="fas fa-check"></i> Supplier Payments</li>
+                            <li><i class="fas fa-check"></i> Financial Reporting</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2>Business Verification Ready</h2>
+            <p>Our complete business documentation is available for Payoneer and Amazon verification processes.</p>
+            <button class="btn btn-primary">Request Business Documents</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Insider.Pro</h3>
+                    <p>Professional Amazon FBA Business with integrated AliExpress sourcing and Payoneer payment processing.</p>
+                    <div class="social-icons">
+                        <a href="file:///C:/Users/user/Downloads/deepseek_html_20250902_8bd5c6.html#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="file:///C:/Users/user/Downloads/deepseek_html_20250902_8bd5c6.html#"><i class="fab fa-twitter"></i></a>
+                        <a href="file:///C:/Users/user/Downloads/deepseek_html_20250902_8bd5c6.html#"><i class="fab fa-instagram"></i></a>
+                        <a href="file:///C:/Users/user/Downloads/deepseek_html_20250902_8bd5c6.html#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Business Details</h3>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> Registered Business Address</li>
+                        <li><i class="fas fa-phone"></i> Business Phone: +1 (555) 123-4567</li>
+                        <li><i class="fas fa-envelope"></i> Email: business@insider.pro.com</li>
+                        <li><i class="fas fa-file-contract"></i> Business Registration #: LLC-2020-12345</li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Platforms</h3>
+                    <ul>
+                        <li><a href="file:///C:/Users/user/Downloads/deepseek_html_20250902_8bd5c6.html#">Amazon Seller Central</a></li>
+                        <li><a href="file:///C:/Users/user/Downloads/deepseek_html_20250902_8bd5c6.html#">AliExpress Suppliers</a></li>
+                        <li><a href="file:///C:/Users/user/Downloads/deepseek_html_20250902_8bd5c6.html#">Payoneer Dashboard</a></li>
+                        <li><a href="file:///C:/Users/user/Downloads/deepseek_html_20250902_8bd5c6.html#">Inventory Management</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li><a href="file:///C:/Users/user/Downloads/deepseek_html_20250902_8bd5c6.html#">Business Documentation</a></li>
+                        <li><a href="file:///C:/Users/user/Downloads/deepseek_html_20250902_8bd5c6.html#">Privacy Policy</a></li>
+                        <li><a href="file:///C:/Users/user/Downloads/deepseek_html_20250902_8bd5c6.html#">Terms of Service</a></li>
+                        <li><a href="file:///C:/Users/user/Downloads/deepseek_html_20250902_8bd5c6.html#">Refund Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>© 2023 Insider.Pro E-Commerce Solutions LLC. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Simple JavaScript for interactive elements
+        document.addEventListener('DOMContentLoaded', function() {
+            const buttons = document.querySelectorAll('.btn');
+            
+            buttons.forEach(button => {
+                button.addEventListener('click', function() {
+                    if(this.textContent.includes('Document')) {
+                        alert('Business documentation package would be sent to your email for verification purposes.');
+                    } else {
+                        alert('Thank you for your interest in Insider.Pro business services!');
+                    }
+                });
+            });
+        });
+    </script>
+
+</body></html>
